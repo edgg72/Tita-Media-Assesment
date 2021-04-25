@@ -1,0 +1,61 @@
+@media (max-width: 1080px) {
+    .gridgridGallery{
+        columns: 2;
+        width: calc(100% - 40px);
+    }
+    .mainContainer h1 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 795px) {
+    body {
+        overflow-x: hidden;
+    }
+    .navBar {
+        & .lines{
+            display: flex;
+            flex-direction: column;
+            right: 5%;
+            position: absolute;
+            & > * {
+                width: 30px;
+                height: 3px;
+                margin: 3px 0;
+                background-color: gray;
+            }
+        }
+        & .navItems {
+            display: none;
+            transform: translateX(100%);
+            flex-direction: column;
+            position: absolute;
+            justify-content: space-evenly;
+            right: 0;
+            margin: 0;
+            top: 70px;
+            width: 50%;
+            height: 75vh;
+            background-color: gray;
+            li{
+                color: white;
+                & > a{
+                    padding: 1em 2em;
+                }
+                & i{
+                    transition: all 0.3s ease;
+                }
+                & i:hover{
+                    transform: scale(2);
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .gridgridGallery{
+        columns: 1;
+    }
+}
+
