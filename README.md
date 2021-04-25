@@ -1,4 +1,4 @@
-# Tita Media assessment <img src="/sneak_logo.png" width="50" height="50" />
+# Tita Media assessment   <img src="/sneak_logo.png" width="30" height="30" />
 
 
 
