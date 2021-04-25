@@ -25,7 +25,6 @@
 .navBar .navItems li a {
   text-decoration: none;
   padding: .5rem;
-  color: gray;
   display: block;
   margin: 0 5px;
 }
@@ -64,7 +63,7 @@
   color: #afafaf;
 }
 
-.navBar .navItems .lastActiveNav {
+.lastActiveNav {
   background-color: #fc758c;
   color: white;
 }
@@ -236,14 +235,13 @@
     height: 75vh;
     background-color: gray;
   }
-  .navBar .navItems li {
-    color: white;
-  }
   .navBar .navItems li > a {
     padding: 1em 2em;
+    color: white !important;
   }
   .navBar .navItems li i {
     transition: all 0.3s ease;
+    color: white;
   }
   .navBar .navItems li i:hover {
     transform: scale(2);
@@ -260,6 +258,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a {
+  color: gray;
 }
 
 body {

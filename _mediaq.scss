@@ -37,12 +37,13 @@
             height: 75vh;
             background-color: gray;
             li{
-                color: white;
                 & > a{
                     padding: 1em 2em;
+                    color: white !important;
                 }
                 & i{
                     transition: all 0.3s ease;
+                    color: white;
                 }
                 & i:hover{
                     transform: scale(2);

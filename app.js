@@ -18,8 +18,6 @@ toggleButton.addEventListener('click', () => {
     navItems.classList.toggle('active')
 })
 
-
-
 let retrieveData = () => {
     let ref = firebase.database().ref('imgs');
     ref.on('value', gotData);

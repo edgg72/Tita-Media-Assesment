@@ -21,7 +21,6 @@
         & li a{
             text-decoration: none;
             padding: .5rem;
-            color: gray;
             display: block;
             margin: 0 5px;
             &:hover {
@@ -55,7 +54,7 @@
     }
 }
 
-.navBar .navItems .lastActiveNav {
+.lastActiveNav{
     background-color: rgb(252, 117, 140);
     color: white;
 }
