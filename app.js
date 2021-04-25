@@ -27,12 +27,8 @@ let retrieveData = () => {
 let gotData = (data) => {
     let info = data.val();
     let keys = Object.keys(info);
-
-
     let elements = document.getElementsByClassName('toInject');
     let srcs = [];
-    console.log(info['img1'].src)
-
     for (let i = 0; i < keys.length; i++) {
         document.getElementsByClassName('toInject')[i].src = info[`img${i + 1}`].src;
     }
